@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+        "library": "todomvc-app-css@2.2.0",
+        "destination": "wwwroot/lib/todomvc-app-css",
+        "files": [
+            "index.css",
+            "license"
+        ]
+    },
+    {
+      "library": "todomvc-common@1.0.5",
+      "destination": "wwwroot/lib/todomvc-common",
+      "files": [
+          "base.css",
+          "license"
+      ]
+    }
+  ]
+}
